@@ -1,0 +1,919 @@
+{
+    "assets": [
+        {
+            "id": 4357679,
+            "created_at": "2016-04-12T15:28:51Z",
+            "priority": 10,
+            "operating_system": null,
+            "notes": null,
+            "last_booted_at": null,
+            "primary_locator": "file",
+            "locator": "C:/Program Files/HP_Fortify/HP_Fortify_SCA_and_Apps_4.10/Samples/basic/php/sink.php",
+            "vulnerabilities_count": 2,
+            "status": "active",
+            "last_seen_time": "2016-04-12T15:28:51Z",
+            "network_ports": [],
+            "tags": [
+                "sample-php",
+                "app test fortify",
+                "App ABC",
+                "app portfolio"
+            ],
+            "owner": null,
+            "urls": {
+                "vulnerabilities": "{{API_URL}}/assets/4357679/vulnerabilities"
+            },
+            "ip_address": null,
+            "database": null,
+            "hostname": null,
+            "fqdn": null,
+            "netbios": null,
+            "application": null,
+            "file": "C:/Program Files/HP_Fortify/HP_Fortify_SCA_and_Apps_4.10/Samples/basic/php/sink.php",
+            "mac_address": null,
+            "ec2": null,
+            "url": null,
+            "external_id": null,
+            "ipv6": null,
+            "risk_meter_score": 1000,
+            "asset_groups": [
+                {
+                    "id": 189887,
+                    "name": "DMZ"
+                },
+                {
+                    "id": 189896,
+                    "name": "Web Apps"
+                },
+                {
+                    "id": 189900,
+                    "name": "External Assets Past Due Items"
+                },
+                {
+                    "id": 189911,
+                    "name": "Full Stack Application"
+                },
+                {
+                    "id": 189914,
+                    "name": "App Portfolio"
+                },
+                {
+                    "id": 189916,
+                    "name": "!All Assets All Status"
+                },
+                {
+                    "id": 189931,
+                    "name": "Vulnerability 66+ & Fix Available"
+                },
+                {
+                    "id": 189937,
+                    "name": "Windows Admin"
+                },
+                {
+                    "id": 189989,
+                    "name": "High Risk (90+) Open Vulns"
+                },
+                {
+                    "id": 189994,
+                    "name": "Critical Linux Servers"
+                },
+                {
+                    "id": 190003,
+                    "name": "PCI Scope"
+                },
+                {
+                    "id": 190009,
+                    "name": "High Risk Assets"
+                },
+                {
+                    "id": 197021,
+                    "name": "fullstack + app group"
+                },
+                {
+                    "id": 201033,
+                    "name": "HIPAA HITRUST"
+                },
+                {
+                    "id": 210148,
+                    "name": "SLA Breech"
+                },
+                {
+                    "id": 215022,
+                    "name": "!All Assets Open Vuln's"
+                },
+                {
+                    "id": 215803,
+                    "name": "Webshell exposure"
+                },
+                {
+                    "id": 189936,
+                    "name": "XP Admin"
+                }
+            ]
+        },
+        {
+            "id": 3274193,
+            "created_at": "2015-11-03T19:14:23Z",
+            "priority": 10,
+            "operating_system": "AXIS - Linux - Linux - 2.6)",
+            "notes": null,
+            "last_booted_at": null,
+            "primary_locator": "hostname",
+            "locator": "10.10.3.2",
+            "vulnerabilities_count": 3,
+            "status": "active",
+            "last_seen_time": "2013-08-23T11:59:42Z",
+            "network_ports": [
+                {
+                    "id": 8243659,
+                    "port_number": 123,
+                    "extra_info": null,
+                    "hostname": null,
+                    "name": null,
+                    "ostype": null,
+                    "product": null,
+                    "protocol": "udp",
+                    "state": "open",
+                    "version": null
+                },
+                {
+                    "id": 239024555,
+                    "port_number": 22,
+                    "extra_info": "",
+                    "hostname": null,
+                    "name": "SSH",
+                    "ostype": "",
+                    "product": null,
+                    "protocol": "tcp",
+                    "state": "open",
+                    "version": null
+                },
+                {
+                    "id": 239024556,
+                    "port_number": 23,
+                    "extra_info": "",
+                    "hostname": null,
+                    "name": "Telnet",
+                    "ostype": "",
+                    "product": null,
+                    "protocol": "tcp",
+                    "state": "open",
+                    "version": null
+                },
+                {
+                    "id": 239024557,
+                    "port_number": 80,
+                    "extra_info": "",
+                    "hostname": null,
+                    "name": "HTTP",
+                    "ostype": "",
+                    "product": "HTTPD",
+                    "protocol": "tcp",
+                    "state": "open",
+                    "version": null
+                },
+                {
+                    "id": 239024558,
+                    "port_number": 443,
+                    "extra_info": "",
+                    "hostname": null,
+                    "name": "HTTPS",
+                    "ostype": "",
+                    "product": "HTTPD",
+                    "protocol": "tcp",
+                    "state": "open",
+                    "version": "1.2b7"
+                }
+            ],
+            "tags": [
+                "PCI"
+            ],
+            "owner": null,
+            "urls": {
+                "vulnerabilities": "{{API_URL}}/assets/3274193/vulnerabilities"
+            },
+            "ip_address": "10.10.3.2",
+            "database": null,
+            "hostname": "10.10.3.2",
+            "fqdn": null,
+            "netbios": null,
+            "application": null,
+            "file": null,
+            "mac_address": null,
+            "ec2": null,
+            "url": null,
+            "external_id": "56394653",
+            "ipv6": null,
+            "risk_meter_score": 1000,
+            "asset_groups": [
+                {
+                    "id": 189894,
+                    "name": "LAMP"
+                },
+                {
+                    "id": 189896,
+                    "name": "Web Apps"
+                },
+                {
+                    "id": 189903,
+                    "name": "Linux servers"
+                },
+                {
+                    "id": 189915,
+                    "name": "Third Party Apps"
+                },
+                {
+                    "id": 189916,
+                    "name": "!All Assets All Status"
+                },
+                {
+                    "id": 189917,
+                    "name": "Linux (Vulns 75+)"
+                },
+                {
+                    "id": 189920,
+                    "name": "Kenna Low Scanner High"
+                },
+                {
+                    "id": 189924,
+                    "name": "Port 80"
+                },
+                {
+                    "id": 189931,
+                    "name": "Vulnerability 66+ & Fix Available"
+                },
+                {
+                    "id": 189937,
+                    "name": "Windows Admin"
+                },
+                {
+                    "id": 189950,
+                    "name": "CVSS 7+"
+                },
+                {
+                    "id": 189994,
+                    "name": "Critical Linux Servers"
+                },
+                {
+                    "id": 189999,
+                    "name": "All Linux"
+                },
+                {
+                    "id": 190003,
+                    "name": "PCI Scope"
+                },
+                {
+                    "id": 201033,
+                    "name": "HIPAA HITRUST"
+                },
+                {
+                    "id": 204958,
+                    "name": "CVE-2020-0601"
+                },
+                {
+                    "id": 210148,
+                    "name": "SLA Breech"
+                },
+                {
+                    "id": 215022,
+                    "name": "!All Assets Open Vuln's"
+                },
+                {
+                    "id": 189936,
+                    "name": "XP Admin"
+                },
+                {
+                    "id": 189989,
+                    "name": "High Risk (90+) Open Vulns"
+                },
+                {
+                    "id": 215803,
+                    "name": "Webshell exposure"
+                },
+                {
+                    "id": 190009,
+                    "name": "High Risk Assets"
+                }
+            ]
+        },
+        {
+            "id": 3273443,
+            "created_at": "2015-11-03T19:08:01Z",
+            "priority": 10,
+            "operating_system": "AXIS - Linux - Linux - 2.6)",
+            "notes": null,
+            "last_booted_at": null,
+            "primary_locator": "hostname",
+            "locator": "10.10.3.1",
+            "vulnerabilities_count": 3,
+            "status": "active",
+            "last_seen_time": "2013-08-23T11:59:42Z",
+            "network_ports": [
+                {
+                    "id": 8242657,
+                    "port_number": 123,
+                    "extra_info": null,
+                    "hostname": null,
+                    "name": null,
+                    "ostype": null,
+                    "product": null,
+                    "protocol": "udp",
+                    "state": "open",
+                    "version": null
+                },
+                {
+                    "id": 239024513,
+                    "port_number": 22,
+                    "extra_info": "",
+                    "hostname": null,
+                    "name": "SSH",
+                    "ostype": "",
+                    "product": null,
+                    "protocol": "tcp",
+                    "state": "open",
+                    "version": null
+                },
+                {
+                    "id": 239024514,
+                    "port_number": 23,
+                    "extra_info": "",
+                    "hostname": null,
+                    "name": "Telnet",
+                    "ostype": "",
+                    "product": null,
+                    "protocol": "tcp",
+                    "state": "open",
+                    "version": null
+                },
+                {
+                    "id": 239024515,
+                    "port_number": 80,
+                    "extra_info": "",
+                    "hostname": null,
+                    "name": "HTTP",
+                    "ostype": "",
+                    "product": "HTTPD",
+                    "protocol": "tcp",
+                    "state": "open",
+                    "version": null
+                },
+                {
+                    "id": 239024516,
+                    "port_number": 443,
+                    "extra_info": "",
+                    "hostname": null,
+                    "name": "HTTPS",
+                    "ostype": "",
+                    "product": "HTTPD",
+                    "protocol": "tcp",
+                    "state": "open",
+                    "version": "1.2b7"
+                }
+            ],
+            "tags": [
+                "Not Win"
+            ],
+            "owner": null,
+            "urls": {
+                "vulnerabilities": "{{API_URL}}/assets/3273443/vulnerabilities"
+            },
+            "ip_address": "10.10.3.1",
+            "database": null,
+            "hostname": "10.10.3.1",
+            "fqdn": null,
+            "netbios": null,
+            "application": null,
+            "file": null,
+            "mac_address": null,
+            "ec2": null,
+            "url": null,
+            "external_id": "56362630",
+            "ipv6": null,
+            "risk_meter_score": 1000,
+            "asset_groups": [
+                {
+                    "id": 189894,
+                    "name": "LAMP"
+                },
+                {
+                    "id": 189896,
+                    "name": "Web Apps"
+                },
+                {
+                    "id": 189903,
+                    "name": "Linux servers"
+                },
+                {
+                    "id": 189915,
+                    "name": "Third Party Apps"
+                },
+                {
+                    "id": 189916,
+                    "name": "!All Assets All Status"
+                },
+                {
+                    "id": 189917,
+                    "name": "Linux (Vulns 75+)"
+                },
+                {
+                    "id": 189920,
+                    "name": "Kenna Low Scanner High"
+                },
+                {
+                    "id": 189924,
+                    "name": "Port 80"
+                },
+                {
+                    "id": 189931,
+                    "name": "Vulnerability 66+ & Fix Available"
+                },
+                {
+                    "id": 189937,
+                    "name": "Windows Admin"
+                },
+                {
+                    "id": 189950,
+                    "name": "CVSS 7+"
+                },
+                {
+                    "id": 189994,
+                    "name": "Critical Linux Servers"
+                },
+                {
+                    "id": 189997,
+                    "name": "Non-Windows"
+                },
+                {
+                    "id": 189999,
+                    "name": "All Linux"
+                },
+                {
+                    "id": 190003,
+                    "name": "PCI Scope"
+                },
+                {
+                    "id": 201033,
+                    "name": "HIPAA HITRUST"
+                },
+                {
+                    "id": 204958,
+                    "name": "CVE-2020-0601"
+                },
+                {
+                    "id": 210148,
+                    "name": "SLA Breech"
+                },
+                {
+                    "id": 215022,
+                    "name": "!All Assets Open Vuln's"
+                },
+                {
+                    "id": 189936,
+                    "name": "XP Admin"
+                },
+                {
+                    "id": 189989,
+                    "name": "High Risk (90+) Open Vulns"
+                },
+                {
+                    "id": 215803,
+                    "name": "Webshell exposure"
+                },
+                {
+                    "id": 190009,
+                    "name": "High Risk Assets"
+                }
+            ]
+        },
+        {
+            "id": 3253303,
+            "created_at": "2015-11-02T19:10:56Z",
+            "priority": 10,
+            "operating_system": "Windows Server 2003 R2 (Service Pack 2, Server, SQL Server, [++])",
+            "notes": "",
+            "last_booted_at": null,
+            "primary_locator": "ip_address",
+            "locator": "192.46.26.9",
+            "vulnerabilities_count": 257,
+            "status": "active",
+            "last_seen_time": "2015-11-02T19:10:56Z",
+            "network_ports": [],
+            "tags": [
+                "servers DMZ",
+                "Juniper",
+                "app portfolio",
+                "DMZ Servers",
+                "Sharepoint"
+            ],
+            "owner": null,
+            "urls": {
+                "vulnerabilities": "{{API_URL}}/assets/3253303/vulnerabilities"
+            },
+            "ip_address": "192.46.26.9",
+            "database": null,
+            "hostname": "192.46.26.9",
+            "fqdn": null,
+            "netbios": null,
+            "application": "http://testphp.vulnweb.com/",
+            "file": null,
+            "mac_address": null,
+            "ec2": null,
+            "url": null,
+            "external_id": null,
+            "ipv6": null,
+            "risk_meter_score": 1000,
+            "asset_groups": [
+                {
+                    "id": 189881,
+                    "name": "Servers"
+                },
+                {
+                    "id": 189887,
+                    "name": "DMZ"
+                },
+                {
+                    "id": 189891,
+                    "name": "RCEs"
+                },
+                {
+                    "id": 189896,
+                    "name": "Web Apps"
+                },
+                {
+                    "id": 189900,
+                    "name": "External Assets Past Due Items"
+                },
+                {
+                    "id": 189902,
+                    "name": "All Windows"
+                },
+                {
+                    "id": 189909,
+                    "name": "Fix Category Local"
+                },
+                {
+                    "id": 189911,
+                    "name": "Full Stack Application"
+                },
+                {
+                    "id": 189914,
+                    "name": "App Portfolio"
+                },
+                {
+                    "id": 189915,
+                    "name": "Third Party Apps"
+                },
+                {
+                    "id": 189916,
+                    "name": "!All Assets All Status"
+                },
+                {
+                    "id": 189918,
+                    "name": "DMZ Server"
+                },
+                {
+                    "id": 189922,
+                    "name": "Kenna Low CVSS Score High"
+                },
+                {
+                    "id": 189929,
+                    "name": "Windows Critical Assets (900+)"
+                },
+                {
+                    "id": 189930,
+                    "name": "Windows Critical Vulnerabilities (+66)"
+                },
+                {
+                    "id": 189931,
+                    "name": "Vulnerability 66+ & Fix Available"
+                },
+                {
+                    "id": 189933,
+                    "name": "No Patch Available"
+                },
+                {
+                    "id": 189934,
+                    "name": "No Patch Available - Windows"
+                },
+                {
+                    "id": 189937,
+                    "name": "Windows Admin"
+                },
+                {
+                    "id": 189940,
+                    "name": "Windows_Critical"
+                },
+                {
+                    "id": 189943,
+                    "name": "Windows High Assets (665+)"
+                },
+                {
+                    "id": 189950,
+                    "name": "CVSS 7+"
+                },
+                {
+                    "id": 189951,
+                    "name": "Windows Server OS"
+                },
+                {
+                    "id": 189957,
+                    "name": "Windows Easily Exploitable"
+                },
+                {
+                    "id": 189960,
+                    "name": "Web Application (testphp)"
+                },
+                {
+                    "id": 189965,
+                    "name": "Oracle"
+                },
+                {
+                    "id": 189981,
+                    "name": "zSharepoint Exceptions - Approved"
+                },
+                {
+                    "id": 189994,
+                    "name": "Critical Linux Servers"
+                },
+                {
+                    "id": 189995,
+                    "name": "Windows DC Servers"
+                },
+                {
+                    "id": 190003,
+                    "name": "PCI Scope"
+                },
+                {
+                    "id": 190006,
+                    "name": "CVSS: Conf Comp Int Comp Avail Comp"
+                },
+                {
+                    "id": 190009,
+                    "name": "High Risk Assets"
+                },
+                {
+                    "id": 197021,
+                    "name": "fullstack + app group"
+                },
+                {
+                    "id": 201033,
+                    "name": "HIPAA HITRUST"
+                },
+                {
+                    "id": 204958,
+                    "name": "CVE-2020-0601"
+                },
+                {
+                    "id": 210148,
+                    "name": "SLA Breech"
+                },
+                {
+                    "id": 215022,
+                    "name": "!All Assets Open Vuln's"
+                },
+                {
+                    "id": 215257,
+                    "name": "KRI5 - Servers without High Vulns unpatched > 40 days"
+                },
+                {
+                    "id": 189936,
+                    "name": "XP Admin"
+                },
+                {
+                    "id": 218861,
+                    "name": "Payment Systems"
+                },
+                {
+                    "id": 218863,
+                    "name": "PS with priority"
+                },
+                {
+                    "id": 218864,
+                    "name": "juniper vuln exploit in the wild"
+                },
+                {
+                    "id": 221843,
+                    "name": "AAA Rfal"
+                },
+                {
+                    "id": 221890,
+                    "name": "Windows - Kate"
+                }
+            ]
+        },
+        {
+            "id": 3251925,
+            "created_at": "2015-11-02T19:08:40Z",
+            "priority": 10,
+            "operating_system": "Windows Server 2003 (Service Pack 2, Server, [++])",
+            "notes": "",
+            "last_booted_at": null,
+            "primary_locator": "ip_address",
+            "locator": "156.81.219.51",
+            "vulnerabilities_count": 17,
+            "status": "active",
+            "last_seen_time": "2015-11-02T19:08:40Z",
+            "network_ports": [],
+            "tags": [
+                "Juniper",
+                "app portfolio",
+                "Bitsight"
+            ],
+            "owner": "Dave",
+            "urls": {
+                "vulnerabilities": "{{API_URL}}/assets/3251925/vulnerabilities"
+            },
+            "ip_address": "156.81.219.51",
+            "database": null,
+            "hostname": "156.81.219.51",
+            "fqdn": null,
+            "netbios": null,
+            "application": "Test PHP",
+            "file": null,
+            "mac_address": null,
+            "ec2": null,
+            "url": null,
+            "external_id": null,
+            "ipv6": null,
+            "risk_meter_score": 1000,
+            "asset_groups": [
+                {
+                    "id": 189881,
+                    "name": "Servers"
+                },
+                {
+                    "id": 189887,
+                    "name": "DMZ"
+                },
+                {
+                    "id": 189891,
+                    "name": "RCEs"
+                },
+                {
+                    "id": 189896,
+                    "name": "Web Apps"
+                },
+                {
+                    "id": 189900,
+                    "name": "External Assets Past Due Items"
+                },
+                {
+                    "id": 189902,
+                    "name": "All Windows"
+                },
+                {
+                    "id": 189909,
+                    "name": "Fix Category Local"
+                },
+                {
+                    "id": 189911,
+                    "name": "Full Stack Application"
+                },
+                {
+                    "id": 189914,
+                    "name": "App Portfolio"
+                },
+                {
+                    "id": 189915,
+                    "name": "Third Party Apps"
+                },
+                {
+                    "id": 189916,
+                    "name": "!All Assets All Status"
+                },
+                {
+                    "id": 189922,
+                    "name": "Kenna Low CVSS Score High"
+                },
+                {
+                    "id": 189929,
+                    "name": "Windows Critical Assets (900+)"
+                },
+                {
+                    "id": 189930,
+                    "name": "Windows Critical Vulnerabilities (+66)"
+                },
+                {
+                    "id": 189931,
+                    "name": "Vulnerability 66+ & Fix Available"
+                },
+                {
+                    "id": 189933,
+                    "name": "No Patch Available"
+                },
+                {
+                    "id": 189934,
+                    "name": "No Patch Available - Windows"
+                },
+                {
+                    "id": 189937,
+                    "name": "Windows Admin"
+                },
+                {
+                    "id": 189940,
+                    "name": "Windows_Critical"
+                },
+                {
+                    "id": 189943,
+                    "name": "Windows High Assets (665+)"
+                },
+                {
+                    "id": 189950,
+                    "name": "CVSS 7+"
+                },
+                {
+                    "id": 189951,
+                    "name": "Windows Server OS"
+                },
+                {
+                    "id": 189957,
+                    "name": "Windows Easily Exploitable"
+                },
+                {
+                    "id": 189973,
+                    "name": "Bitsight"
+                },
+                {
+                    "id": 189994,
+                    "name": "Critical Linux Servers"
+                },
+                {
+                    "id": 189995,
+                    "name": "Windows DC Servers"
+                },
+                {
+                    "id": 190003,
+                    "name": "PCI Scope"
+                },
+                {
+                    "id": 190006,
+                    "name": "CVSS: Conf Comp Int Comp Avail Comp"
+                },
+                {
+                    "id": 190009,
+                    "name": "High Risk Assets"
+                },
+                {
+                    "id": 197021,
+                    "name": "fullstack + app group"
+                },
+                {
+                    "id": 201033,
+                    "name": "HIPAA HITRUST"
+                },
+                {
+                    "id": 204958,
+                    "name": "CVE-2020-0601"
+                },
+                {
+                    "id": 210148,
+                    "name": "SLA Breech"
+                },
+                {
+                    "id": 215022,
+                    "name": "!All Assets Open Vuln's"
+                },
+                {
+                    "id": 189936,
+                    "name": "XP Admin"
+                },
+                {
+                    "id": 215257,
+                    "name": "KRI5 - Servers without High Vulns unpatched > 40 days"
+                },
+                {
+                    "id": 218861,
+                    "name": "Payment Systems"
+                },
+                {
+                    "id": 218863,
+                    "name": "PS with priority"
+                },
+                {
+                    "id": 218864,
+                    "name": "juniper vuln exploit in the wild"
+                },
+                {
+                    "id": 189993,
+                    "name": "Windows tp/ab/ee/pt"
+                },
+                {
+                    "id": 189959,
+                    "name": "TOP Priority"
+                },
+                {
+                    "id": 221843,
+                    "name": "AAA Rfal"
+                },
+                {
+                    "id": 221890,
+                    "name": "Windows - Kate"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "page": 1,
+        "pages": 10
+    }
+}
