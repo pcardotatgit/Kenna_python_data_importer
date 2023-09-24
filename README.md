@@ -43,7 +43,7 @@ Fields contained into this table map to same fields of <same table that exist in
 
 Here under table structures :
 
-**assets table**
+**assets table :**
 
 - asset_id
 - operating_system
@@ -121,6 +121,7 @@ Once done you can run the scripts. This repo contains demo data into the [ ./ini
     python 1-create_sqlite_database_and_json_converter_to_sqlite.py
     pyhton 2-update_vulnerability_dates_in_db.py ( optional )
     python 3-sqlite_to_json_for_kdi_converter.py
+    python 4-send_JSON_to_KDI.py ( ! this script is under construction ! )
     
 ## Next step
 

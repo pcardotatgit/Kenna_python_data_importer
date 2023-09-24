@@ -75,8 +75,7 @@ def new_alert_into_db(client):
         row.append('Secure EndPoint')
         current_time=date_time()
         row.append(current_time)
-        sqlite_data=(critical_alerts_index, row[0] , row[1], row[2], row[3], row[4], row[5])
-        #sql_request="INSERT OR IGNORE into critical_alerts (id, Customer,Severity,Description,Status,Source,DateTime ) VALUES (?,?,?,?,?,?,?)" 
+        sqlite_data=(critical_alerts_index, row[0] , row[1], row[2], row[3], row[4], row[5]) 
         sql_request=f"INSERT OR IGNORE into critical_alerts (id, Customer,Severity,Description,Status,Source,DateTime ) VALUES ({critical_alerts_index}, '{row[0]}' , '{row[1]}', '{row[2]}', '{row[3]}', '{row[4]}', '{row[5]}')" 
         print(sql_request)
         #cursor.execute(sql_request, sqlite_data)

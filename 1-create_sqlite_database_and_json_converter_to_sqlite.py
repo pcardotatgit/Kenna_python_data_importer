@@ -1,5 +1,5 @@
 '''
-    create Kenna SecureX/XDR demo data stored into the SQLite database
+    create Kenna demo data for the generic python KDI connector, and store them into the SQLite database
 '''
 import sys
 import csv

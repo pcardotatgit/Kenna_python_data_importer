@@ -13,7 +13,6 @@ from datetime import datetime, timedelta
 
 version='1.0.0'
 vuln_defs=''
-external_unique_id=0
 
 def current_date():
     current_time = datetime.utcnow()
