@@ -1,6 +1,6 @@
-#Python data importer proof of concept
+# Python data importer proof of concept
 
-This set of scripts show an example of Kenna Data Importer written in python
+This set of scripts show an example of Kenna Generic Data Importer written in python
 
 ## Introduction 
 
@@ -86,7 +86,9 @@ Here under table structures :
 - closed_at text : date & time
 - closed
 
-Run the 1-create_sqlite_database_and_json_converter_to_sqlite.py in order to create the SQLite database, parse the sources files and feed the database.
+**How to do :**
+
+Run the 1-create_sqlite_database_and_json_converter_to_sqlite.py in order to create the SQLite database, parse the sources files and feed the database. The result is supposed to be a new file created into the working directory : database.db. This is the SQLite database.
 
 The 2-update_vulnerability_dates_in_db.py script can be runt in order to update dates of entries stored into the database with the date of the current day. Within kenna, if the dates of entries are too old then data are not displayed. In a demos context could be handy to updates the dates into the database before creating the KDI JSON file.
 
@@ -101,7 +103,7 @@ This is this file that has to be sent to Kenna Data Importer connector.
 The 4-send_JSON_to_KDI.py ( under construction ) send the ./data_for_kdi/data_for_kdi.json to the Kenna Data Importer connector. 
 For this script you will need the Connector ID.
 
-##Installation 
+## Installation 
 
 Clone this repo into a working directory or download and unzip the zip file into the working directory
 
@@ -120,5 +122,7 @@ Run the scripts :
     pyhton 2-update_vulnerability_dates_in_db.py 
     python 3-sqlite_to_json_for_kdi_converter.py
     
+## Next step
 
+    Have a look at how the parsers work. And specially the SQLite call that ingest the parsed data into th SQLlite database. And then try to transpose ths technic to other sources, like CSV files or interaction with a REST Sources.
     
