@@ -116,13 +116,13 @@ They require to python module : requests and crayons. If not already done you ha
     
 Once done you can run the scripts. This repo contains demo data into the [ ./init ] subfolder... 2 JSON files we are going to parse 
 
-Run the scripts :
+# Run the scripts
 
     python 1-create_sqlite_database_and_json_converter_to_sqlite.py
-    pyhton 2-update_vulnerability_dates_in_db.py 
+    pyhton 2-update_vulnerability_dates_in_db.py ( optional )
     python 3-sqlite_to_json_for_kdi_converter.py
     
 ## Next step
 
-    Have a look at how the parsers work. And specially the SQLite call that ingest the parsed data into th SQLlite database. And then try to transpose ths technic to other sources, like CSV files or interaction with a REST Sources.
+Have a look at how the parsers work. And specially the SQLite call that ingest the parsed data into th SQLlite database. And then try to transpose ths technic to other sources, like CSV files or interaction with a REST Sources.
     
