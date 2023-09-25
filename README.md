@@ -30,6 +30,8 @@ The proof of concept in this repo, gives an example of parsing data from a exemp
 
 As the image bellow shown, in this example we parse data from a source which is actually 2 text files in the JSON format that contains for the first one ( ./init/assets.json ) asset information, and for the second one ( ./init/vulnerabilities.json ) information about asset vulnerabilities.  
 
+![](assets/images/python_kdi-2.png)
+
 These two files are JSON files. They could be results sent by a vulnerability scanner. 
 
 We read these two files, we parse them and extract from them every relevant information we need. This is about assets information and their vulnerabilities. And then we store these information into an SQLite database.
