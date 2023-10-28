@@ -96,7 +96,7 @@ Here under table structures :
 
 **Step 1** : Run the **1-create_sqlite_database_and_json_converter_to_sqlite.py** in order to create the SQLite database, parse the sources files and feed the database. The result is supposed to be a new file created into the working directory : database.db. This is the SQLite database.
 
-**Step 2** : The 2-update_vulnerability_dates_in_db.py script can be runt in order to update dates of entries stored into the database with the date of the current day. Within kenna, if the dates of entries are too old then data are not displayed. In a demos context could be handy to updates the dates into the database before creating the KDI JSON file.
+**Step 2** : The **2-update_vulnerability_dates_in_db.py** script can be runt in order to update dates of entries stored into the database with the date of the current day. Within kenna, if the dates of entries are too old then data are not displayed. In a demos context could be handy to updates the dates into the database before creating the KDI JSON file.
 
 **Step 3** : The next operation is to read the database and create the KDI JSON files. This operation is done by the **3-sqlite_to_json_for_kdi_converter.py script**. The resulting file will be located in the [ ./data_for_kdi ] subfolder named **data_for_kdi.json**.
 
