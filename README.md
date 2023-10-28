@@ -108,7 +108,7 @@ For this part, the job had already been done.
 
 Have a look to the following fantastic documentation :
 
-[Uploading a File to a Connector] (https://community.cisco.com/t5/security-knowledge-base/uploading-a-file-to-a-connector/ta-p/4837007)
+[Uploading a File to a Connector](https://community.cisco.com/t5/security-knowledge-base/uploading-a-file-to-a-connector/ta-p/4837007)
 
 And actually this resource above is the second part of a blog post on python KDI connectors. You must start first with this article :
 
